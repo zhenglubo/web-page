@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>首页</title>
+    <!--用百度的静态资源库的cdn安装bootstrap环境-->
+    <!-- Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" href="../css/bootstrap-theme.css" />
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <!--font-awesome 核心我CSS 文件-->
+    <link rel="stylesheet" href="../css/app.css">
+    <!-- 在bootstrap.min.js 之前引入 -->
+    <script type="text/javascript" src="../js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="../js/bootstrap.js"></script>
+    <!--jquery.validate-->
+    <script type="text/javascript" src="../js/jquery.validate.min.js"></script>
+</head>
+
+<style>
+    img {
+        margin: 8px 8px;
+    }
+</style>
+
+<body>
+
+    <!-- 头部导航栏 -->
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container-fluid">
+            <div>
+                <p class="navbar-left navbar-text">首页</p>
+            </div>
+            <div>
+                <form class="navbar-form navbar-right" role="search">
+                    <button type="button" id="logout" class="btn btn-default">
+                        退出登录
+                    </button>
+                </form>
+                <img src="../img/avatar.png" class="img-circle navbar-right navbar-">
+                <p class="navbar-text navbar-right">清风徐来</p>
+
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- <div class=" container">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <p>这里是广告单元</p>
+                <p>sdljflasdjflsdjfl</p>
+            </div>
+        </nav>
+    </div> -->
+
+    <!-- 论坛公告 -->
+    <div class=" ">
+        <div class="panel panel-warning">
+            <div class="panel-heading">
+                <h3 class="panel-title notice-text">论坛公告</h3>
+            </div>
+            <div class="panel-body">
+                <div class="row">
+                    <div class="col-md-4 col-sm-4 col-xs-4 ">
+                        <p><a href="#">加入会员</a></p>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-4 ">
+                        <p><a href="#">每日签到</a></p>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-4 ">
+                        <p><a href="#">论坛公告</a></p>
+                    </div>
+                    <hr />
+                    <div class="col-md-4 col-sm-4 col-xs-4 ">
+                        <p><a href="#">论坛活动</a></p>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-4">
+                        <p><a href="#">我要发帖</a></p>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-4">
+                        <p><a href="#">联系管家</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 地区选择 -->
+    <div class="">
+        <div class="panel panel-warning">
+            <div class="panel-heading">
+                <h3 class="panel-title area-text">地区选择</h3>
+            </div>
+            <div class="panel-body">
+                <div class="row">
+                    <div class="col-md-4 col-sm-4 col-xs-4 gonggao"><span class="label label-warning"><a
+                                href="#">广州</a></span></div>
+                    <div class="col-md-4 col-sm-4 col-xs-4 gonggao"><span class="label label-warning"><a
+                                href="#">广州</a></span></div>
+                    <div class="col-md-4 col-sm-4 col-xs-4 gonggao"><span class="label label-warning"><a
+                                href="#">深圳</a></span></div>
+                    <div class="col-md-4 col-sm-4 col-xs-4 "><span class="label label-warning"><a href="#">北京</a></span>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-4"><span class="label label-warning"><a href="#">上海</a></span>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-4 "><span class="label label-warning"><a href="#">北京</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- 图片展示区 -->
+    <div class=" ">
+        <div class="panel panel-warning">
+            <div class="panel-heading">
+                <h3 class="panel-title area-text">热点图片</h3>
+            </div>
+            <div class="panel-body">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 col-xs-6" align="center">
+                        <img src="../img/phone.jpg" class="img-thumbnail img-fluid float-left" />
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-6" align="center">
+                        <img src="../img/phone.jpg" class="img-thumbnail img-fluid float-right" />
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-6" align="center">
+                        <img src="../img/phone.jpg" class="img-thumbnail img-fluid" />
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-6" align="center">
+                        <img src="../img/phone.jpg" class="img-thumbnail img-fluid" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <!-- 热帖排行榜 -->
+    <div class="  hot-topic-text">
+        <div class="panel panel-warning">
+            <div class="panel-heading">
+                <h3 class="panel-title">热帖排行榜</h3>
+            </div>
+            <div class="panel-body">
+                <ul class="list-group">
+                    <li class="list-group-item"><span class="label label-danger">1</span>&nbsp;&nbsp;免费域名注册</li>
+                    <li class="list-group-item"><span class="label label-danger">2</span>&nbsp;&nbsp;免费 Window 空间托管
+                    </li>
+                    <li class="list-group-item"><span class="label label-danger">3</span>&nbsp;&nbsp;图像的数量</li>
+                    <li class="list-group-item">
+                        <span class="label label-danger">4</span>&nbsp;&nbsp;
+                        <span class="badge">新</span>
+                        24*7 支持
+                    </li>
+                    <li class="list-group-item"><span class="label label-danger">5</span>&nbsp;&nbsp;每年更新成本</li>
+                    <li class="list-group-item">
+                        <span class="label label-danger">6</span>&nbsp;&nbsp;
+                        <span class="badge">新</span>
+                        折扣优惠
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- 热帖展示 -->
+    <div class="  hot-topic-text">
+        <div class="panel panel-warning">
+            <div class="panel-heading">
+                <h3 class="panel-title">热帖展示</h3>
+            </div>
+        </div>
+        <div class="panel-body">
+            <div class="media">
+                <div class="media-body">
+                    <h4 class="media-heading">右对齐</h4>
+                    <p>这是一些示例文本。这是一些示例文本。这是一些示例文本。这是一些示例文本。这是一些示例文本。<br />这是一些示例文本。这是一些示例文本。这是一些示例文本。</p>
+                    <h6>作者：八戒&nbsp;&nbsp;2000浏览 50评论 10次点赞</h6>
+                </div>
+                <div class="media-right">
+                    <img src="https://static.runoob.com/images/mix/img_avatar.png" class="media-object"
+                        style="width:60px">
+                </div>
+            </div>
+        </div>
+        <hr />
+        <div class="panel-body">
+            <div class="media">
+                <div class="media-body">
+                    <h4 class="media-heading">右对齐</h4>
+                    <p>这是一些示例文本。这是一些示例文本。这是一些示例文本。这是一些示例文本。这是一些示例文本。<br />这是一些示例文本。这是一些示例文本。这是一些示例文本。</p>
+                    <h6>作者：八戒&nbsp;&nbsp;2000浏览 50评论 10次点赞</h6>
+                </div>
+                <div class="media-right">
+                    <img src="https://static.runoob.com/images/mix/img_avatar.png" class="media-object"
+                        style="width:60px">
+                </div>
+            </div>
+        </div>
+        <hr />
+        <div class="panel-body">
+            <div class="media">
+                <div class="media-body">
+                    <h4 class="media-heading">右对齐</h4>
+                    <p>这是一些示例文本。这是一些示例文本。这是一些示例文本。这是一些示例文本。这是一些示例文本。<br />这是一些示例文本。这是一些示例文本。这是一些示例文本。</p>
+                    <h6>作者：八戒&nbsp;&nbsp;2000浏览 50评论 10次点赞</h6>
+                </div>
+                <div class="media-right">
+                    <img src="https://static.runoob.com/images/mix/img_avatar.png" class="media-object"
+                        style="width:60px">
+                </div>
+            </div>
+        </div>
+        <hr />
+        <div class="panel-body">
+            <div class="media">
+                <div class="media-body">
+                    <h4 class="media-heading">右对齐</h4>
+                    <p>这是一些示例文本。这是一些示例文本。这是一些示例文本。这是一些示例文本。这是一些示例文本。<br />这是一些示例文本。这是一些示例文本。这是一些示例文本。</p>
+                    <h6>作者：八戒&nbsp;&nbsp;2000浏览 50评论 10次点赞</h6>
+                </div>
+                <div class="media-right">
+                    <img src="https://static.runoob.com/images/mix/img_avatar.png" class="media-object"
+                        style="width:60px">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 底部导航栏 -->
+    <div class="main_nav_bottom">
+        <nav class="navbar navbar-default navbar-fixed-bottom">
+            <div class="container" align="center">
+                <style>
+                    .nav-tabs {
+                        text-align: center;
+                        height: 40px;
+                        line-height: 40px;
+                    }
+                </style>
+                <ul class="nav nav-tabs nav-tabs-justified">
+                    <div class="row" align="center">
+                        <div class="col-md-3 col-sm-3 col-xs-3" align="center">
+                                <li>
+                                        <a href="#">
+                                            <img src="../img/index.svg" />
+                                            <p>首页</p>
+                                        </a>
+                                    </li>
+                        </div>
+                        <div class="col-md-3 col-sm-3 col-xs-3" align="center">
+                                <li>
+                                        <a href="#">
+                                            <img src="../img/forum.svg" />
+                                            <p>论坛</p>
+                                        </a>
+                                    </li>
+                        </div>
+                        <div class="col-md-3 col-sm-3 col-xs-3" align="center">
+                            <li>
+                                <a href="#">
+                                    <img src="../img/send_topic.svg" />
+                                    <p>发帖</p>
+                                </a>
+                            </li>
+                        </div>
+                        <div class="col-md-3 col-sm-3 col-xs-3" align="center">
+                            <li>
+                                <a href="#">
+                                    <img src="../img/my.svg" />
+                                    <p>我的</p>
+                                </a>
+                            </li>
+                        </div>
+                    </div>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</body>
+<script>
+    $(function () {
+        $("#logout").click(function () {
+            console.log("退出登录");
+
+            window.location.href = "/Users/Administrator/Desktop/hxbbs/html/login.html";
+        });
+
+    });
+
+
+</script>
+
+</html>

@@ -1,0 +1,24 @@
+body{
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+}
+
+.notice-text,
+.area-text,
+.hot-topic-text{
+    text-align: left;
+}
+.gonggao{
+    margin-bottom: 5px;
+}
+
+.adv{
+    background-color:coral;
+}
+
+.erea-city li{
+    margin: 5px auto;
+}
