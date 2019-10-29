@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>vip</title>
+    <!--用百度的静态资源库的cdn安装bootstrap环境-->
+    <!-- Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" href="../../css/bootstrap-theme.css" />
+    <link rel="stylesheet" href="../../css/bootstrap.css">
+    <!--font-awesome 核心我CSS 文件-->
+    <link rel="stylesheet" href="../../css/app.css">
+    <!-- 在bootstrap.min.js 之前引入 -->
+    <script type="text/javascript" src="../../js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="../../js/bootstrap.js"></script>
+    <!--jquery.validate-->
+    <script type="text/javascript" src="../../js/jquery.validate.min.js"></script>
+    <!-- paginator -->
+    <script type="text/javascript" src="../../js/bootstrap-paginator.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container-fluid">
+            <div>
+                <a class="navbar-left navbar-text"><img src="../../img/back.svg">返回</a>
+            </div>
+        </div>
+    </nav>
+    <ul class="nav nav-tabs nav-justified">
+        <li class="active"><a href="#">在线充值</a></li>
+        <li><a href="#">积分充值</a></li>
+        <li><a href="#">充值纪录</a></li>
+        <li><a href="#">会员权限</a></li>
+    </ul>
+
+    <div class="online-recharge">
+        <br />
+        <p>用户等级：普通用户</p>
+        <p>用 户 名：清风</p>
+        <hr />
+        <span for="name">充值类型:</span>
+        <div class="btn-group">
+            <label class="radio-inline">
+                <input type="radio" id="radio1" value="value1"> vip
+            </label>
+            <label class="radio-inline">
+                <input type="radio" id="radio2" value="value2"> 超级vip
+            </label>
+        </div>
+        <br /><br />
+        <span for="name">有效时长:</span>
+        <div class="btn-group">
+            <label class="radio-inline">
+                <input type="radio" id="radio3" value="value3"> 月卡
+            </label>
+            <label class="radio-inline">
+                <input type="radio" id="radio4" value="value4"> 年卡
+            </label>
+            <label class="radio-inline">
+                <input type="radio" id="radio5" value="value5"> 永久
+            </label>
+        </div>
+        <br />
+        <br />
+        <p>应支付20元，请选择以下两种支付方式</p>
+        <ul>
+            <li>
+                <label type="radio-inline">
+                    <input type="radio" id="radio6" value="value6"> <img src="../../img/wx_pay.svg">微信支付
+                </label>
+            </li>
+            <li>
+                <label type="radio-inline">
+                    <input type="radio" id="radio6" value="value6"> <img src="../../img/ali_pay.svg">支付宝支付
+                </label>
+            </li>
+        </ul>
+        <br />
+        <p>支付方式：支付方式不同将展示不同的支付二维码</p>
+        <p>注意：请在付款备注中填写自己的用户名></p>
+        <img src="../../img/wx_receive.png" class="img-responsive" style="width: 10%;height: 10%;">
+        <p>确定已转账完成后点击下一步，进入支付信息填写界面</p>
+        <button type="button" class="btn btn-info">下一步</button>
+    </div>
+
+    <div class="points-recharge">
+        <br />
+        <p>用户等级：普通用户</p>
+        <p>用 户 名：清风</p>
+        <hr />
+        <span for="name">充值类型:</span>
+        <div class="btn-group">
+            <label class="radio-inline">
+                <input type="radio" id="radio1" value="value1"> vip
+            </label>
+            <label class="radio-inline">
+                <input type="radio" id="radio2" value="value2"> 超级vip
+            </label>
+        </div>
+        <br /><br />
+        <span for="name">有效时长:</span>
+        <div class="btn-group">
+            <label class="radio-inline">
+                <input type="radio" id="radio3" value="value3"> 月卡
+            </label>
+            <label class="radio-inline">
+                <input type="radio" id="radio4" value="value4"> 年卡
+            </label>
+            <label class="radio-inline">
+                <input type="radio" id="radio5" value="value5"> 永久
+            </label>
+        </div>
+        <br />
+        <br />
+        <p>应当支付积分：3000</p>
+        <p>您的总积分为：1800</p>
+        <button type="button" class="btn btn-info">确认支付</button>
+    </div>
+
+    <!-- 会员权限描述 -->
+    <br />
+    <div class="description">
+        <table class="table table-bordered">
+            <thead>
+                <tr class="active">
+                    <th>会员等级</th>
+                    <th>vip特权说明</th>
+                    <th>开通vip</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="warning">
+                    <td style="vertical-align: middle;">普通用户</td>
+                    <td>
+                        <ol>
+                            <li>每日限查看6条帖子</li>
+                            <li>每日限评论2条帖子</li>
+                            <li>每日限发布1条帖子</li>
+                            <li>联系方式不可见</li>
+                            <li>只能查看部分板块帖子</li>
+                            <li>无法参与线下活动</li>
+                        </ol>
+                    </td>
+                    <td style="vertical-align: middle;"><a href="#">加入VIP</a></td>
+                </tr>
+                <tr class="success">
+                    <td style="vertical-align: middle;">vip用户</td>
+                    <td>
+                        <ol>
+                            <li>每日看帖数量不限</li>
+                            <li>评论数量不限</li>
+                            <li>发帖数量不限</li>
+                            <li>可查看各个板块内容</li>
+                            <li>可快速定位想查看的帖子</li>
+                            <li>可查看联系方式</li>
+                            <li>可参与线下活动</li>
+                            <li>可查看部分地区</li>
+                        </ol>
+                    </td>
+                    <td style="vertical-align: middle;"><a href="#">加入VIP</a></td>
+                </tr>
+                <tr class="danger">
+                    <td style="vertical-align: middle;">超级用户</td>
+                    <td>
+                        <ol>
+                            <li>拥有vip所有权限</li>
+                            <li>可查看高端板块</li>
+                            <li>可查看全部地区</li>
+                            <li>可屏蔽他人评论</li>
+                            <li>可设置看帖金币数</li>
+                        </ol>
+                    </td>
+                    <td style="vertical-align: middle;"><a href="#">加入VIP</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <br>
+    <div class="recharge-record">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>充值时间</th>
+                    <th>有效时间</th>
+                    <th>充值金额</th>
+                    <th>会员等级</th>
+                    <th>是否过期</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>2019-05-12</td>
+                    <td>1个月</td>
+                    <td>50元</td>
+                    <td>vip用户</td>
+                    <td>是</td>
+                </tr>
+                <tr>
+                    <td>2019-08-01</td>
+                    <td>12个月</td>
+                    <td>288元</td>
+                    <td>vip用户</td>
+                    <td>否</td>
+                </tr>
+                <tr>
+                    <td>2019-09-28</td>
+                    <td>99个月</td>
+                    <td>50元</td>
+                    <td>永久用户</td>
+                    <td>否</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+
+    <!-- 底部导航栏 -->
+    <div class="main_nav_bottom">
+        <nav class="navbar navbar-default navbar-fixed-bottom">
+            <div class="container" align="center">
+                <style>
+                    .nav-tabs {
+                        text-align: center;
+                        height: 40px;
+                        line-height: 40px;
+                    }
+                </style>
+                <ul class="nav nav-tabs nav-tabs-justified">
+                    <div class="row" align="center">
+                        <div class="col-md-3 col-sm-3 col-xs-3" align="center">
+                            <li>
+                                <a href="#">
+                                    <img src="../../img/index.svg" />
+                                    <p>首页</p>
+                                </a>
+                            </li>
+                        </div>
+                        <div class="col-md-3 col-sm-3 col-xs-3" align="center">
+                            <li>
+                                <a href="#">
+                                    <img src="../../img/forum.svg" />
+                                    <p>论坛</p>
+                                </a>
+                            </li>
+                        </div>
+                        <div class="col-md-3 col-sm-3 col-xs-3" align="center">
+                            <li>
+                                <a href="#">
+                                    <img src="../../img/send_topic.svg" />
+                                    <p>发帖</p>
+                                </a>
+                            </li>
+                        </div>
+                        <div class="col-md-3 col-sm-3 col-xs-3" align="center">
+                            <li>
+                                <a href="#">
+                                    <img src="../../img/my.svg" />
+                                    <p>我的</p>
+                                </a>
+                            </li>
+                        </div>
+                    </div>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+</body>
+<script>
+    var agent = navigator.userAgent;
+    if (/.*Firefox.*/.test(agent)) {
+        document.addEventListener("DOMMouseScroll", function (e) {
+            e = e || window.event;
+            var detail = e.detail;
+            if (detail > 0) {
+                // 移除菜单
+                $(".main_nav_bottom nav").addClass("display");
+                console.log("鼠标向下滚动");
+            } else {
+                //显示菜单
+                $(".main_nav_bottom nav").removeClass("display");
+                console.warn("鼠标向上滚动");
+            }
+        });
+    } else {
+        document.onmousewheel = function (e) {
+            e = e || window.event;
+            var wheelDelta = e.wheelDelta;
+            if (wheelDelta > 0) {
+                //显示菜单
+                $(".main_nav_bottom nav").removeClass("display");
+                console.log("鼠标向上滚动");
+            } else {
+                // 移除菜单
+                $(".main_nav_bottom nav").addClass("display");
+                console.warn("鼠标向下滚动");
+            }
+        }
+    }
+</script>
+
+</html>

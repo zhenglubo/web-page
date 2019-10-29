@@ -8,7 +8,14 @@ ul{
 
 .notice-text,
 .area-text,
-.hot-topic-text{
+.hot-topic-text,
+.topic-detail-text,
+.topic-comment-text,
+.write-comment,
+.online-recharge,
+.points-recharge,
+.description,
+.recharge-record{
     text-align: left;
 }
 .gonggao{
@@ -21,4 +28,59 @@ ul{
 
 .erea-city li{
     margin: 5px auto;
+}
+.topic-detail-text{
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.topic-comment-text{
+    padding-right: 40px;
+}
+.write-comment{
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.online-recharge,.points-recharge{
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 20px;
+    display: none;
+}
+
+.points-recharge{
+    display: none;
+}
+
+.description{
+    display: none;
+}
+
+.recharge-record{
+    display: inline;
+}
+.display{
+    display: none;
+}
+
+.header-text-align{
+    text-align:center;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.search{
+    margin: 10px 15px 10 15px;
+}
+
+.search-count{
+    height: 34px;
+    width: 100%;
+    background-color: darkgrey;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 8px;
+    margin: 10px 0;
 }

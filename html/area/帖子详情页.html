@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>帖子详情</title>
+    <!--用百度的静态资源库的cdn安装bootstrap环境-->
+    <!-- Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" href="../../css/bootstrap-theme.css" />
+    <link rel="stylesheet" href="../../css/bootstrap.css">
+    <!--font-awesome 核心我CSS 文件-->
+    <link rel="stylesheet" href="../../css/app.css">
+    <!-- 在bootstrap.min.js 之前引入 -->
+    <script type="text/javascript" src="../../js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="../../js/bootstrap.js"></script>
+    <!--jquery.validate-->
+    <script type="text/javascript" src="../../js/jquery.validate.min.js"></script>
+    <!-- paginator -->
+    <script type="text/javascript" src="../../js/bootstrap-paginator.js"></script>
+</head>
+
+<body>
+    <!-- 头部导航栏 -->
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container-fluid">
+            <div>
+                <a class="navbar-left navbar-text"><img src="../../img/back.svg">返回</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="topic-detail-text">
+        <h3>页面标题实例</h3>
+        <p><img src="../../img/avatar.png"> &nbsp;作者：清风 &nbsp;&nbsp;2019-10-15</p>
+        <hr />
+        <p>&nbsp;&nbsp; 这里是内容，这里是内容，这里是内容，这里是内容，这里是内容这里是尼日尔这里是内容这里是尼日尔这里是内容这里是内容这里是内容这里是内容这里是内容这里是内容这里是内容这里是内容</p>
+        <ul>
+            <li>地址：广州市白云区金贵村华南汽配城12路103</li>
+            <li>电话：12345678910</li>
+            <li>qq:432198765</li>
+            <li>微信：12345678910</li>
+        </ul>
+        <ul>
+            <li><img src="../../img/phone.jpg"></li>
+            <li><img src="../../img/phone.jpg"></li>
+            <li><img src="../../img/phone.jpg"></li>
+            <li><img src="../../img/phone.jpg"></li>
+        </ul>
+        <p>这是隐藏内容，请回帖查看</p>
+    </div>
+    <button type="button" class="btn btn-info">喜欢</button>
+    <button type="button" class="btn btn-warning">不喜欢</button>
+    <hr />
+
+    <!-- 评论区 -->
+    <div class="page-header ">
+        <h3>评论区</h3>
+        <hr />
+        <div class="topic-comment-text">
+            <ul>
+                <li>
+                    <p><img src="../../img/avatar.png">&nbsp;测试1 <img style="float: right;" src="../../img/good.svg">
+                    </p>
+                    <p>这里是评论内容，这里是评论内容，这里是评论内容，这里是评论内容，这里是评论内容，这里是评论内容</p>
+                    <p>1天前 3回复</p>
+                    <br />
+                </li>
+                <li>
+                    <p><img src="../../img/avatar.png">&nbsp;测试1 <img style="float: right;" src="../../img/good.svg">
+                    </p>
+                    <p>这里是评论内容，这里是评论内容，这里是评论内容，这里是评论内容，这里是评论内容，这里是评论内容</p>
+                    <p>1天前 3回复</p>
+                    <br />
+                </li>
+                <li>
+                    <p><img src="../../img/avatar.png">&nbsp;测试1 <img style="float: right;" src="../../img/good.svg">
+                    </p>
+                    <p>这里是评论内容，这里是评论内容，这里是评论内容，这里是评论内容，这里是评论内容，这里是评论内容</p>
+                    <p>1天前 3回复</p>
+                    <br />
+                </li>
+            </ul>
+        </div>
+        <hr />
+        <div class="write-comment">
+            <form role="form">
+                <div class="form-group">
+                    <label for="name">写评论</label>
+                    <textarea class="form-control" rows="3" placeholder="写下您的评论...."></textarea>
+                    <!-- <input type="text" class="form-control" placeholder="写下您的评论...."> -->
+                    <br />
+                    <button type="button" id="login_btn" class="btn btn-info">提交</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
