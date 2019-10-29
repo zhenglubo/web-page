@@ -1,0 +1,17 @@
+JVM原理，多线程，高并发
+spring，springmvc springcloud ，dubbo的使用和原理
+精通netty redis,消息mq
+精通mysql熟悉常用调优
+有大型分布式，高并发，高可用开发和调优
+linux常用命令和shell脚本
+
+
+框架：springboot，springcloud ,consul,mybatis
+数据库：mysql，redis，
+搜索：lunce ,elasticsearch 
+消息中间件：kafka rabbitmq
+jvm,io,nio  websocket ,网络编程，多线程，线程池
+高并发，高可用，分布式 
+常用数据结构list set map 及安全性
+产品架构
+
